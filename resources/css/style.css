@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Open+Sans:400,700');
+
+/* --- UNIVERSAL STYLES--- */
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', serif;
+}
+body > .container {
+  padding: 60px 15px 0;
+}
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+ul li {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+.image-container {
+  overflow: hidden;
+}
+img {
+  width: 100%;
+}
+
+/* --- HEADER AND NAVIGATION --- */
+header {
+  height: 3rem;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  padding: 0 2rem;
+}
+nav {
+  display: inline-block;
+  float: left;
+}
+
+nav li {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  /*padding: 1rem;*/
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #399bd1;
+}
+
+.desktop-nav a.selected:link, a.selected:visited {
+  color: #399bd1;
+}
+
+.logo {
+  float: right;
+}
+
+
+
+/* --- Jumbotron --- */
+.carousel {
+  width: 100%;
+}
+.jumbotron {
+  /*background-color: transparent;*/
+  height: 43rem;
+  padding-top: 12rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.get-going {
+  background-image: url(../images/jumbotron-bike.jpg);
+}
+.get-thinking {
+  background-image: url(../images/jumbotron-beer.jpg);
+}
+.get-creating {
+  background-image: url(../images/jumbotron-flowers.jpg);
+}
+.get-started {
+  background-image: url(../images/jumbotron-duffel.jpg);
+}
+.jumbotron h1 {
+  font-family: 'Monoton'; cursive;
+  font-size: 7.1rem;
+}
+.jumbotron p{
+  max-width: 51.3rem;
+  margin: auto;
+  text-align: center;
+}
+.btn-relative {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  top: -16rem;
+}
