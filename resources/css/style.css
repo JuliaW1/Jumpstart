@@ -116,3 +116,64 @@ nav li {
   width: 100%;
   top: -16rem;
 }
+
+/* -- MEDIA QUERIES --*/
+
+@media only screen and (max-width: 767px) {
+  .nav-desktop {
+    display:none !important;
+  }
+  .nav-mobile {
+    display: inline;
+  }
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .jumbotron h1 {
+    font-size: 5rem;
+  }
+  .image-container {
+    height: 15rem;
+  }
+  .img-project2, .img-project3 {
+    margin-top: 3rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .jumbotron h1 {
+    font-size: 3.7rem;
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff;
+  }
+  .image-container {
+    height: 15rem;
+  }
+  .btn-relative {
+    margin-top: 3.2rem;
+  }
+}
+
+/* --- FEATURED PRODUCT*/
+.featured {
+  margin-top: -10rem;
+}
+.featured h1 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.featured h2 {
+  margin-top: -0.25rem;
+  margin-bottom: 20px;
+}
+.featured-image img{
+  /*width: 50%;*/
+}
+.categories {
+  color: #399bd1;
+}
+
+/* --- PROJECTS --- */
+.projects {
+  margin-bottom: 5.85rem;
+}
