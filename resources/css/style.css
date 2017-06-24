@@ -27,6 +27,13 @@ ul li {
 img {
   width: 100%;
 }
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 1.3rem 0.5rem;
+  margin-top: 2.8rem;
+  width: 11.4rem;
+}
 .lite {
   opacity: .7;
   transition: opacity .5s ease-out;
@@ -46,7 +53,9 @@ img {
               opacity .5s;
   opacity
 }
-
+.author {
+  font-style: italic;
+}
 
 /* --- HEADER AND NAVIGATION --- */
 header {
@@ -79,16 +88,19 @@ nav li {
   background-color: inherit;
   color: #399bd1;
 }
-
 .desktop-nav a.selected:link, a.selected:visited {
   color: #399bd1;
 }
-
 .logo {
   float: right;
 }
-
-
+.nav-mobile {
+  float:left;
+  display: none;
+}
+.nav-mobile ul.nav.navbar-nav li {
+  display: inline-block;
+}
 
 /* --- Jumbotron --- */
 .carousel {
@@ -196,4 +208,28 @@ nav li {
 /* --- PROJECTS --- */
 .projects {
   margin-bottom: 5.85rem;
+}
+
+/* ===== Having Trouble ----- */
+.having-trouble {
+  background-color: #f3f3f3;
+}
+.having-trouble {
+  text-align: center;
+  padding: 5.2rem 0;
+}
+.having-trouble h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.having-trouble p {
+  margin: auto;
+  margin-top: 1.4rem;
+  width: 42rem;
+}
+@media only screen and (max-width: 550px) {
+  .having-trouble p{
+    width: auto;
+    margin-left: 0.5rem;
+  }
 }

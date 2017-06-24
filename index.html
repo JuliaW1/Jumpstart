@@ -4,8 +4,7 @@
     <title>Jumpstart</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.png">
-
+    
     <!-- GOOGLE FONTS -->
        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
        <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
@@ -14,13 +13,13 @@
      <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
      <link rel="stylesheet" type="text/css" href="resources/slick/slick.css"/>
+     <link rel="stylesheet" type="text/css" href="resources/slick/slick-theme.css"/>
      <link rel="stylesheet" type="text/css" href="resources/css/style.css">
 
      <!-- JAVASCRIPT-->
       <script src="https://code.jquery.com/jquery-3.1.1.min.js"
               integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
               crossorigin="anonymous"></script>
-      <script type="text/javascript" src="resources/slick/slick.min.js"></script>
       <script type="text/javascript" src="resources/js/main.js"></script>
   </head>
   <body>
@@ -36,6 +35,16 @@
           <img class="navbar-brand navbar-right collapse navbar-collapse" src="resources/images/logo.png">
         </div>
       </nav>
+   <nav class="navbar navbar-default navbar-fixed-top nav-mobile">
+     <div class="container-fluid">
+       <ul class="nav navbar-nav">
+         <li class="active"><a href="#"><i class="fa fa-wpexplorer fa-2x"></i></a></li>
+         <li><a href="#"><i class="fa fa-play fa-2x"></i></a></li>
+         <li><a href="#"><i class="fa fa-users fa-2x"></i></a></li>
+       </ul>
+       <img class="navbar-brand navbar-right  navbar-collapse collapse" src="resources/images/logo.png">
+     </div>
+   </nav>
     </header>
 
     <!-- JUMBOTRON -->
@@ -166,6 +175,7 @@
              </div>
 
          <!-- HAVING TROUBLE? -->
+          <div class="row">
              <div class="container-fluid having-trouble">
                <h1>Having trouble thinking of an idea?</h1>
                <p>
@@ -176,7 +186,7 @@
                  <i class="fa fa-2x pull-left"></i> Learn more
                </a>
              </div>
-        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
+           </div>
+        <script type="text/javascript" src="resources/slick/slick.min.js"></script>
    </body>
 </html>
